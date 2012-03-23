@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/home/lsd/ra001973/mestrado/verificador/desenvolvimento/concreteprofile.xsd">
+<profile>
+<relatedasset/>
+<relatedprofile>
+<description/>
+</relatedprofile>
+<description/>
+</profile>
+<solution>
+<design>
+<diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</diagram>
+<model>
+<diagramdependency/>
+<modeldependency/>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</model>
+</design>
+<test>
+<diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+<model>
+<diagramdependency/>
+<modeldependency/>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</model>
+</test>
+<implementation>
+<compositecomponent>
+<artifact name="Fachada">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="Parser">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="Transformation">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="MyObject">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="TestClass">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="Gerenciador">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact name="FabricaDeComponente">
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype type="java"/>
+<variabilitypoint/>
+</artifact>
+<artifact/>
+<componentbasedview>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+<interfaceconnection>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+<subcomponent>
+<relatedasset/>
+</subcomponent>
+</interfaceconnection>
+</componentbasedview>
+</compositecomponent>
+<relatedasset/>
+</implementation>
+</solution>
+<description/>
+<usage>
+<assetactivity>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</assetactivity>
+<artifactactivity>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</artifactactivity>
+<contextref>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</contextref>
+</usage>
+<classification>
+<descriptorgroup>
+<description/>
+<descriptor/>
+</descriptorgroup>
+<context>
+<description/>
+<descriptorgroup>
+<description/>
+<descriptor/>
+</descriptorgroup>
+</context>
+</classification>
+</asset>

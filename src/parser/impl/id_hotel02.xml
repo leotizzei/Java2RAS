@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/home/lsd/ra001973/mestrado/verificador/desenvolvimento/interfaceprofile.xsd" name="IHotel" id="12345789" state="development">
+    <profile name="interfacedefinition">
+        <relatedasset/>
+        <relatedprofile>
+            <description> profile de definicao do profile</description>
+        </relatedprofile>
+        <description></description>
+    </profile>
+    <solution>
+        <design>
+            <diagram>
+                <artifact name="IHotelMgt.java" type="java">
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </diagram>
+            <interfacedefinition name="IHotelMgt" developmentstate="normal">
+                <operation name="getHospedes">
+                    <condition/>
+                    <parameter/>
+                </operation>
+                <operation name="cadastraHospede">
+                    <condition/>
+                    <parameter name="hospede" type="xs:string" position="0"/>
+                </operation>
+                <informationmodel>
+                    <attribute/>
+                    <associationrole/>
+                </informationmodel>
+            </interfacedefinition>
+             <interfacedefinition name="IManager2" developmentstate="normal">
+                <operation name="getInterfaces">
+                    <condition/>
+                    <parameter/>
+                </operation>
+                <operation name="getanything">
+                    <condition/>
+                    <parameter/>
+                </operation>
+                <operation name="getInterface">
+                    <condition/>
+                    <parameter name="interface" type="xs:string" position="0"/>
+                </operation>
+                <informationmodel>
+                    <attribute/>
+                    <associationrole/>
+                </informationmodel>
+            </interfacedefinition>
+        </design>
+        <test>
+            <diagram>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </diagram>
+            <artifact>
+                <artifactcontext/>
+                <artifactdependency/>
+                <artifacttype/>
+                <variabilitypoint/>
+            </artifact>
+            <model>
+                <diagramdependency/>
+                <modeldependency/>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </model>
+        </test>
+        <requirements>
+            <diagram>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </diagram>
+            <artifact>
+                <artifactcontext/>
+                <artifactdependency/>
+                <artifacttype/>
+                <variabilitypoint/>
+            </artifact>
+            <model>
+                <diagramdependency/>
+                <modeldependency/>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </model>
+            <usecase>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </usecase>
+        </requirements>
+    </solution>
+    <description></description>
+    <usage>
+        <assetactivity>
+            <activity>
+                <description></description>
+                <varibilitypointbinding/>
+            </activity>
+        </assetactivity>
+        <artifactactivity>
+            <activity>
+                <description></description>
+                <varibilitypointbinding/>
+            </activity>
+        </artifactactivity>
+        <contextref>
+            <activity>
+                <description></description>
+                <varibilitypointbinding/>
+            </activity>
+        </contextref>
+    </usage>
+    <classification>
+        <descriptorgroup>
+            <description></description>
+            <descriptor/>
+        </descriptorgroup>
+        <context>
+            <description></description>
+            <descriptorgroup>
+                <description></description>
+                <descriptor/>
+            </descriptorgroup>
+        </context>
+    </classification>
+</asset>
+

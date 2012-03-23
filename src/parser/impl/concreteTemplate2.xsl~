@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
+<!-- get the name of the class and set the artifacts names -->
+<xsl:template match="class">
+<asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="file:/home/lsd/ra001973/mestrado/verificador/desenvolvimento/concreteprofile.xsd">
+    <profile>
+        <relatedasset/>
+        <relatedprofile>
+            <description/>
+        </relatedprofile>
+        <description/>
+    </profile>
+    <solution>
+        <design>
+            <diagram>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </diagram>
+            <model>
+                <diagramdependency/>
+                <modeldependency/>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </model>
+        </design>
+        <test>
+            <diagram>
+	
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </diagram>
+            <artifact>
+                <artifactcontext/>
+                <artifactdependency/>
+                <artifacttype/>
+                <variabilitypoint/>
+            </artifact>
+            <model>
+                <diagramdependency/>
+                <modeldependency/>
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+            </model>
+        </test>
+        <implementation>
+             <compositecomponent>
+		<xsl:for-each select="@name">
+			<xsl:value-of select="."/>
+		</xsl:for-each>	
+		<!-- artifact name="{@name}.java"></artifact -->
+                <artifact>
+                    <artifactcontext/>
+                    <artifactdependency/>
+                    <artifacttype/>
+                    <variabilitypoint/>
+                </artifact>
+	
+                <componentbasedview>
+                    <subcomponent>
+                        <relatedasset/>
+                    </subcomponent>
+                    <subcomponent>
+                        <relatedasset/>
+                    </subcomponent>
+                    <subcomponent>
+                        <relatedasset/>
+                    </subcomponent>
+                    <subcomponent>
+                        <relatedasset/>
+                    </subcomponent>
+                    <interfaceconnection>
+                        <subcomponent>
+                            <relatedasset/>
+                        </subcomponent>
+                        <subcomponent>
+                            <relatedasset/>
+                        </subcomponent>
+                    </interfaceconnection>
+                 
+                </componentbasedview>
+            </compositecomponent>
+            <relatedasset/>
+        </implementation>
+    </solution>
+    <description/>
+    <usage>
+        <assetactivity>
+            <activity>
+                <description/>
+                <varibilitypointbinding/>
+            </activity>
+        </assetactivity>
+        <artifactactivity>
+            <activity>
+                <description/>
+                <varibilitypointbinding/>
+            </activity>
+        </artifactactivity>
+        <contextref>
+            <activity>
+                <description/>
+                <varibilitypointbinding/>
+            </activity>
+        </contextref>
+    </usage>
+    <classification>
+        <descriptorgroup>
+            <description/>
+            <descriptor/>
+        </descriptorgroup>
+        <context>
+            <description/>
+            <descriptorgroup>
+                <description/>
+                <descriptor/>
+            </descriptorgroup>
+        </context>
+    </classification>
+</asset>
+</xsl:template>
+</xsl:stylesheet>

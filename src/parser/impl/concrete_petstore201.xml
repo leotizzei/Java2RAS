@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file:/home/lsd/ra001973/mestrado/verificador/desenvolvimento/concreteprofile.xsd">
+	<profile>
+		<relatedasset />
+		<relatedprofile>
+			<description />
+		</relatedprofile>
+		<description />
+	</profile>
+	<solution>
+		<design>
+			<diagram>
+				<artifact>
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype />
+					<variabilitypoint />
+				</artifact>
+			</diagram>
+			<model>
+				<diagramdependency />
+				<modeldependency />
+				<artifact>
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype />
+					<variabilitypoint />
+				</artifact>
+			</model>
+		</design>
+		<test>
+			<diagram>
+				<artifact>
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype />
+					<variabilitypoint />
+				</artifact>
+			</diagram>
+			<artifact>
+				<artifactcontext />
+				<artifactdependency />
+				<artifacttype />
+				<variabilitypoint />
+			</artifact>
+			<model>
+				<diagramdependency />
+				<modeldependency />
+				<artifact>
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype />
+					<variabilitypoint />
+				</artifact>
+			</model>
+		</test>
+		<implementation>
+			<elementarycomponent>
+				<artifact name="Manager">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="ComponentFactory">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="Facade0">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="Facade1">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="Facade2">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="Facade3">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="Facade4">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="BlueFilter">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="CaptchaServlet">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="CaptchaSingleton">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="RandomString">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact name="SimpleCaptcha">
+					<artifactcontext />
+					<artifactdependency />
+					<artifacttype type="java" />
+					<variabilitypoint />
+				</artifact>
+				<artifact />
+			</elementarycomponent>
+			<relatedasset />
+		</implementation>
+	</solution>
+	<description />
+	<usage>
+		<assetactivity>
+			<activity>
+				<description />
+				<varibilitypointbinding />
+			</activity>
+		</assetactivity>
+		<artifactactivity>
+			<activity>
+				<description />
+				<varibilitypointbinding />
+			</activity>
+		</artifactactivity>
+		<contextref>
+			<activity>
+				<description />
+				<varibilitypointbinding />
+			</activity>
+		</contextref>
+	</usage>
+	<classification>
+		<descriptorgroup>
+			<description />
+			<descriptor />
+		</descriptorgroup>
+		<context>
+			<description />
+			<descriptorgroup>
+				<description />
+				<descriptor />
+			</descriptorgroup>
+		</context>
+	</classification>
+</asset>

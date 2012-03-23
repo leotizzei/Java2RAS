@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" state="development" id="12345789" name="IHotel" xsi:noNamespaceSchemaLocation="file:/home/lsd/ra001973/mestrado/verificador/desenvolvimento/interfaceprofile.xsd">
+<profile name="interfacedefinition">
+<relatedasset/>
+<relatedprofile>
+<description/>
+</relatedprofile>
+<description/>
+</profile>
+<solution>
+<design>
+<diagram>
+<artifact name="IParse"/>
+</diagram>
+<interfacedefinition name="IParse">
+            <informationmodel>
+<attribute name="minhaString" type="String" defaultvalue="" visibility="protected"/>
+<associationrole/>
+</informationmodel>
+            <operation visibility="public" name="teste" returnType="void">
+<parameter name="s" type="String" position="1"/>
+<parameter name="myobject" type="MyObject" position="2"/>
+</operation>
+            <operation visibility="public" name="teste2" returnType="int">
+<parameter name="s" type="String" position="1"/>
+</operation>
+        </interfacedefinition>
+</design>
+<test>
+<diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+<model>
+<diagramdependency/>
+<modeldependency/>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</model>
+</test>
+<requirements>
+<diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</diagram>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+<model>
+<diagramdependency/>
+<modeldependency/>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</model>
+<usecase>
+<artifact>
+<artifactcontext/>
+<artifactdependency/>
+<artifacttype/>
+<variabilitypoint/>
+</artifact>
+</usecase>
+</requirements>
+</solution>
+<description/>
+<usage>
+<assetactivity>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</assetactivity>
+<artifactactivity>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</artifactactivity>
+<contextref>
+<activity>
+<description/>
+<varibilitypointbinding/>
+</activity>
+</contextref>
+</usage>
+<classification>
+<descriptorgroup>
+<description/>
+<descriptor/>
+</descriptorgroup>
+<context>
+<description/>
+<descriptorgroup>
+<description/>
+<descriptor/>
+</descriptorgroup>
+</context>
+</classification>
+</asset>
